@@ -16,3 +16,14 @@ completed: boolean;
 Types
 Primitive types - number, boolean, void, null, string, undefined, symbol.
 Object types - functions, arrays, classes, objects.
+
+**Jargon\***
+Type annotation - code we write for typescript to tell the types
+Type inference - compilers attempt to decode type.
+
+Type inferance happens when the variable is declared and initialized on the same line. Type script assigns a type to it.
+
+let boo = true; -> boo has type 'boolean'
+
+let boo;
+boo = false; ->boo has type 'any'
