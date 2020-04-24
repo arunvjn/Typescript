@@ -27,3 +27,17 @@ let boo = true; -> boo has type 'boolean'
 
 let boo;
 boo = false; ->boo has type 'any'
+
+Type Alias
+type Drink = [string, boolean, number]
+
+Intiated Object can have more properties than the interface it belongs to.
+
+Code reuse strategy TS
+-Create functions that accept arguments that are typed with interfaces.
+-Objects/classes can decide to implement a given interface to word with that function.
+
+--Access Modifiers--
+Public - accessible everywhere
+Private - accessible within other methods of the same class
+Protected - accessible within other methods of the same class and the child classes.
