@@ -41,3 +41,6 @@ Code reuse strategy TS
 Public - accessible everywhere
 Private - accessible within other methods of the same class
 Protected - accessible within other methods of the same class and the child classes.
+
+Type definition files
+A file is like a adapter between typescript code and JS code which helps typescript understand the type of all the methods and variables in the JS code.
