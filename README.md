@@ -44,3 +44,19 @@ Protected - accessible within other methods of the same class and the child clas
 
 Type definition files
 A file is like a adapter between typescript code and JS code which helps typescript understand the type of all the methods and variables in the JS code.
+
+--Sorting app
+
+Nodemon for hot reload
+Concurrently for running scripts together
+-tsc -w && nodemon build/index.js
+
+type - string | number [] -> restrict the incoming object to have properties which are an intersection of string and number (indexOf, splice etc)
+
+Type Guard - use "instanceof"(objects created with function constructors) or "typeof"(for primitives)
+
+Abstract class
+-Cannot be used to create an object directly.
+-Can be used only as parent class
+-Can contain implementations for some methods. Implemented methods can mak reference to methods and properties that do not exist yet but their signatures needs to be declared in the abstract class.
+-Can make child promise to implement a method.
